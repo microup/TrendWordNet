@@ -55,14 +55,14 @@ TrendWordNet is written in **pure Go** and requires **no external libraries or d
    cd TrendWordNet
    ```
 
-2. Place the training dataset (`data/data.csv`), validation dataset (`data/test.csv`), and trained model file (`data/best_network.gob`) in the `data/` directory.
+2. Place the training dataset (`data/data.csv`), validation dataset (`data/test.csv`), and trained model file (`data/network.gob`) in the `data/` directory.
 3. No additional dependencies or library installations are needed—pure Go is sufficient.
 
 ## Usage
 
 The repository includes two main programs:
 
-- `main.go`: Trains the network and saves it to `data/network.gob` and `data/best_network.gob`.
+- `main.go`: Trains the network and saves it to `data/network.gob` and `data/network.gob`.
 - `trends/trends.go`: Loads the trained model and predicts trendiness for a list of words.
 
 ### Training the Model
