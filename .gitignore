@@ -1,2 +1,4 @@
 .zip
 models/
+.vscode/
+utils/
